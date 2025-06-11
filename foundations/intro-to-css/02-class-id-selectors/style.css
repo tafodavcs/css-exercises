@@ -1,0 +1,28 @@
+p.background {
+    background-color: #fea6a7;
+    /* The font DejaVu Sans could use double quotes as well. */
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+#blue {
+    color: rgba(1,0,254,255);
+    font-size: 36px;
+}
+
+.background.cooler {
+    font-size: 24px;
+}
+
+#bold {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* Just in order to reduce duplicate code, I could've removed '.background.cooler' 
+and use just '.cooler', attributing this class to both elements 3 and 4 @ index.html. 
+So, the code would be something like this:
+
+.cooler {
+font-size: 24px;
+}
+*/
