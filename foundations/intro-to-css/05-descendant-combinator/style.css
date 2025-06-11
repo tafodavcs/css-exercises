@@ -1,0 +1,10 @@
+.container p {
+    background-color: rgb(255, 255, 0);
+    color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+}
+/* Other possible descendant combinators:
+.container . text (chosen by TOP's)
+div p
+div .text */
