@@ -7,15 +7,16 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px;
+  margin: 12px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  /* margin-bottom: 48px; to create 48px space between .one and .three */
+  margin-bottom: 0;
 }
 
 .three {
@@ -23,6 +24,11 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 32px;
+  /* margin-left: auto */
+  margin-left: 330px;
+  /* No need for this margin-top then */
+  margin-top: 48px;
 }
+
+/* Comments show differences in the TOP's code solution. */
